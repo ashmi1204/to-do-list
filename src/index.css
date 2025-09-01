@@ -6,36 +6,36 @@ body{
 ol {
 
 
-    margin-left: 500px;
+    margin-left: 35%;
     text-align: left;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .task{
-    padding: 10px;
-    font-size: 20px;
+    padding: 1%;
+    font-size: 1.5vw;
 }
 button{
-    width:80px;
+    width:8%;
     height: 30px;
-    font-size: 15px;
+    font-size: 1vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 5px;
     border: 1px solid grey;
     background-color: rgb(231, 219, 219);
 }
 .headline{
-    padding: 100px 30px 20px;
-    font-size: 50px;
+    padding: 9% 35% 1%;
+    font-size: 3.5vw;
 }
 .input-field{
-    width: 400px;
+    width: 35%;
     height: 35px;
-    margin: 7px;
+    margin: 1%;
     border-radius: 15px;
     font-size: 15px;
     border:1px solid grey;
-    padding-left:15px;
+    padding-left:1%;
 }
 .input-field:focus{
     background-color: rgb(243, 237, 237);
@@ -47,6 +47,7 @@ button{
     border-radius: 15px;
     border:1px solid grey;
     background-color: rgb(206, 200, 200);
+    width: 7%;
 
 }
 .add-button:active,.add-button:hover{
@@ -56,10 +57,10 @@ button{
     transition: background-color 0.7s ease, color 0.7s ease;
 }
 .move-up-button,.move-down-button{
-    width:30px;
+    width:5%;
 }
 .list-items{
-    padding: 7px;
+    padding: 0.5%;
 }
 button:active,button:hover{
     background-color:  grey;
