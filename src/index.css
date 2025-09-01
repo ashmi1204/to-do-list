@@ -1,0 +1,70 @@
+body{
+    background-color: pink;
+    text-align: center;
+}
+
+ol {
+
+
+    margin-left: 500px;
+    text-align: left;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.task{
+    padding: 10px;
+    font-size: 20px;
+}
+button{
+    width:80px;
+    height: 30px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: rgb(231, 219, 219);
+}
+.headline{
+    padding: 100px 30px 20px;
+    font-size: 50px;
+}
+.input-field{
+    width: 400px;
+    height: 35px;
+    margin: 7px;
+    border-radius: 15px;
+    font-size: 15px;
+    border:1px solid grey;
+    padding-left:15px;
+}
+.input-field:focus{
+    background-color: rgb(243, 237, 237);
+    border:2px solid grey;
+    outline: none;
+}
+.add-button{
+    height: 40px;
+    border-radius: 15px;
+    border:1px solid grey;
+    background-color: rgb(206, 200, 200);
+
+}
+.add-button:active,.add-button:hover{
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.7s ease, color 0.7s ease;
+}
+.move-up-button,.move-down-button{
+    width:30px;
+}
+.list-items{
+    padding: 7px;
+}
+button:active,button:hover{
+    background-color:  grey;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.7s ease, color 0.7s ease;
+    border:1px solid grey;
+}
